@@ -266,7 +266,7 @@ our %COMPILERS = (
         ld => undef,
 
         ccmiscflags  => '-Wdeclaration-after-statement -Werror=declaration-after-statement',
-        ccwarnflags  => '',
+        ccwarnflags  => '-std=c99 -D_GNU_SOURCE',
         ccoptiflags  => '-O%s -DNDEBUG',
         ccdebugflags => '-g%s',
         ccinstflags  => '-pg',
