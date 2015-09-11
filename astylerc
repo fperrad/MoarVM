@@ -1,0 +1,20 @@
+# Artistic Style, see http://astyle.sourceforge.net/
+# full documentation, see: http://astyle.sourceforge.net/astyle.html
+
+## Bracket Style Options
+# style=default
+
+## Tab Options
+indent=spaces=4
+
+## Bracket Modify Options
+
+## Indentation Options
+indent-switches
+
+## Padding Options
+
+## Formatting Options
+max-code-length=120
+convert-tabs
+mode=c

@@ -594,6 +594,8 @@ release:
 	[ -n "$(VERSION)" ] || ( echo "\nTry 'make release VERSION=yyyy.mm'\n\n"; exit 1 )
 	./tools/release.sh $(VERSION)
 
+astyle:
+	astyle -n --recursive --options=astylerc "src/*.c" "src/*.h"
 
 sandwich:
 	@echo What? Make it yourself.
